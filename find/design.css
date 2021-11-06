@@ -1,0 +1,106 @@
+body
+{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(IMG-20181113-WA0080.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+//background: red;
+}
+
+
+ul
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+ul li
+{
+    display: inline-block;
+width: 120px;
+
+}
+
+
+ul li a:hover
+{
+    border: 1px solid white;
+}
+
+
+ul li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+ul li ul li
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    display: block:
+}
+ul li ul li
+{
+display: none;
+}
+
+ul li:hover ul li
+{
+display: block;
+}
+
+ul li ul li
+{
+text-align: center;
+}
+.box
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%)
+}
+.box select
+{
+background: #0563af;
+color: #fff;
+padding: 10px;
+width:500px;
+font-size: 25px;
+}
+.box button
+{
+font-family: "Roboto", sans serif;
+text-tansform: uppercase;
+outline: 1px white;
+background: orange;
+width: 100%
+border: 1px white;
+padding: 7px;
+color: white;
+font-size:15px;
+cursor: pointer;
+}
+h1
+{
+font-size: 30px;
+color: white;
+font-family: "Agency FB", sans serif;
+}
+h2
+{
+font-size: 25px;
+color: white;
+font-family: "Agency FB", sans serif;
+}
+p
+{
+color: white;
+font-size: 18px;
+}

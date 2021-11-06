@@ -1,0 +1,180 @@
+body
+{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(IMG-20181104-WA0197.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+ul
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+ul li
+{
+    display: inline-block;
+width: 120px;
+
+}
+
+
+ul li a:hover
+{
+    border: 1px solid white;
+}
+
+
+ul li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+ul li ul li
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    display: block:
+}
+ul li ul li
+{
+display: none;
+}
+
+ul li:hover ul li
+{
+display: block;
+}
+
+ul li ul li
+{
+text-align: center;
+}
+.profile
+{
+width: 1200px;
+margin: auto;
+background: #fff;
+box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+
+}
+.img-container
+{
+position: absolute;
+float: left;
+padding: 0% 2.24% 2.8%;
+border: 1px solid white;
+max-width: 280px;
+margin-top:197;
+background: white;
+margin-bottom: 15px;
+}
+.main-container
+{
+position: absolute;
+padding: 0% 5% 3%;
+border: 1px solid white;
+
+margin-top: 618;
+float: left;
+max-width: 250px;
+background: white;
+margin-bottom: 15px;
+}
+.skill
+{
+background-color: #bdc9ea;
+border-radius: 16px;
+}
+.progress
+{
+padding: 0.1em 16px;
+border-radius: 16px;
+text-align: center;
+color: #fff;
+background-color: #4b4fe2;
+}
+.login-pg1
+{
+position: relative;
+width: 1200px;
+padding: 0px 0px 5px 200px;
+margin-top: 120;
+float: right;
+opacity: 0.8;
+//transform: translate(-50%, -50%);
+}
+.form1
+{
+position: center;
+background: #ffffff;
+min-width: 1000px;
+margin: 0 auto 50px;
+padding: 0px 0px 64px;
+text-align: center;
+float: right;
+}
+.login-pg2
+{
+width: 1200px;
+padding: px 0px 200px; 
+float: right;
+opacity: 0.8;
+}
+.form2
+{
+position: center;
+background: #ffffff;
+min-width: 1000px;
+margin: 0 auto 5px;
+padding: 0px 0px 50px;
+text-align: center;
+float: right;
+}
+.stats
+{
+float: left;
+padding-left: 20%;
+}
+.mats
+{
+float: right;
+margin-right:20% 
+}
+h3
+{
+font-size: 26;
+background: RoyalBlue;
+}
+ul p
+{
+text-align: left;
+font-size: 18;
+}
+input
+{
+margin-top: 30px;
+width: 400px;
+padding: 4%;
+
+}
+.form2 button
+{
+background: slategray;
+
+}
